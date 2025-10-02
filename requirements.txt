@@ -1,0 +1,14 @@
+# Dependencias principales
+pymodbus>=3.11.0,<4.0.0
+
+# Dependencias del sistema (incluidas con Python)
+# asyncio - Para programación asíncrona
+# logging - Para sistema de logs
+# time - Para manejo de tiempo
+# json - Para serialización de datos
+# enum - Para configuración con enums
+
+# Dependencias opcionales para desarrollo
+# pytest>=7.0.0  # Para testing (descomenta si necesitas tests)
+# black>=22.0.0   # Para formateo de código (descomenta si lo usas)
+# flake8>=4.0.0   # Para linting (descomenta si lo usas)
