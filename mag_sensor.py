@@ -130,7 +130,7 @@ def main():
             logger.info(f"DATOS DEL SENSOR {Config.SENSOR_VERSION.value}")
             logger.info("=" * 60)
             logger.info(f"💧 CAUDAL:\t{caudal_value:>10.3f} L/min")
-            logger.info(f"📏 VOLUMEN:\t{volumen_value:>10.2f} L")
+            logger.info(f"📏 VOLUMEN:\t{volumen_value:>10.2f} M3")
             logger.info(f"🕐 TIMESTAMP:\t{time.strftime('%Y-%m-%d %H:%M:%S')}")
             logger.info("=" * 60)
             
